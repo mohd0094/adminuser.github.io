@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Admin</title>
+
+  <link rel="icon" href="assets/img/favicon.png" type="image/x-icon">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css" >
+  <link rel="stylesheet" href="assets/plugins/mdb/css/mdb.min.css">
+  <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/plugins//datatables/css/dataTables.bootstrap4.min.css">
+  <!-- Custom styles for this template -->
+  <link href="assets/css/custom.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div class="d-flex" id="wrapper">
+
+    <!-- Sidebar -->
+    <div class="sidebar-wrapper" id="sidebar-wrapper">
+      <div class="sidebar-heading">
+        <div class="siderbar-logo">
+          <a href="index.html">
+           Admin
+          </a>
+        </div>
+      </div>
+      <div class="menu-bar">
+        <h5 class="p-2 m-0 small text-muted bg-light pl-3">MENU</h5>
+        <ul>
+          <li>
+            <a  href="index.html" class="  waves-effect waves-light">
+              <i class="fa fa-tachometer" aria-hidden="true"></i>Dashboard
+            </a>
+          </li>
+          <li>
+            <a href="user-table.html" class="active waves-effect waves-light">
+              <i class="fa fa-users"></i> Users
+            </a>
+          </li>
+         
+        </ul>
+
+      </div>
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div class="page-content-wrapper" id="page-content-wrapper">
+
+      <nav class="navbar navbar-expand-lg navbar-light border-bottom">
+      
+          <label class="switch" id="menu-toggle">
+            <span class="slider round"></span>
+          </label>
+       
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link  waves-effect waves-light dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <img class="img-profile rounded-circle" src="assets/img/user.png"> Admin
+
+                </a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="edit-profile.html">Edit Profile</a>
+                  
+                </div>
+              </li>
+
+              <li class="nav-item">
+                <a class="btn-floating card btn-sm btn-primary" title="Logout"  href="login.html">
+                  <i class="fa fa-power-off"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+      </nav>
+
+      <div class="main-content">
+     
+          <h2>User Profile</h2>
+          <section class="table-sec">
+              <div class="row">
+                <div class="col-md-6">
+                   <div class="card shadow mb-4">
+                        <!-- Card Header - Dropdown -->
+                        <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                          <h6 class="m-0 font-weight-bold text-black-50">Edit Profile</h6>
+                        </div>
+                        <!-- Card Body -->
+                    <div class="card-body pt-5">
+                      <form  action="dashboard.html">
+                        <div class="form-animate-fields">
+                            <div class="form-field">
+                                <input class="form-input" type="text" name="userName" required="" id="sname">
+                                <span class="form-label-content">User Name </span>
+                                <i class="border-line"></i>
+                            </div>
+
+                            <div class="form-field">
+                                <input class="form-input" type="password" name="pwd" required="" id="password">
+                                <span class="form-label-content">Old Password</span>
+                                <i class="border-line"></i>
+                            </div>
+
+                            <div class="form-field">
+                                <input class="form-input" type="password" name="pwd" required="" id="password">
+                                <span class="form-label-content">New Password  </span>
+                                <i class="border-line"></i>
+                            </div>
+
+                            <div class="form-field">
+                                <input class="form-input" type="password" name="pwd" required="" id="password">
+                                <span class="form-label-content">Confirm Password </span>
+                                <i class="border-line"></i>
+                            </div>
+
+
+                            <div class="sub-btn-par my-3 ">
+                              <button class="btn btn-amber m-0 waves-effect waves-light">Save</button>
+                            </div>
+                          
+                        </div>
+
+                      </form>
+                    </div>
+                     
+                   </div>
+                  
+                </div>
+                  
+           
+               
+              </div>
+              
+
+          </section>
+   
+        
+      </div>
+    </div>
+    <!-- /#page-content-wrapper -->
+
+  </div>
+  <!-- /#wrapper -->
+
+
+
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="assets/plugins/jquery/jquery.min.js"></script>
+  <script src="assets/plugins/bootstrap/js/popper.min.js"></script>
+  <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+
+  <!-- mdb  -->
+  <script src="assets/plugins/mdb/js/mdb.min.js"></script>
+
+  <!-- apexcharts  -->
+  <script src="assets/plugins/apexcharts/js/apexcharts.min.js"></script>
+
+  <!-- dataTables -->
+  <script src="assets/plugins/dataTables/js/jquery.dataTables.min.js"></script>
+  <script src="assets/plugins/dataTables/js/dataTables.bootstrap4.min.js"></script>
+
+  <!-- custom -->
+  <script src="assets/js/custom.js"></script>
+
+</body>
+
+</html>

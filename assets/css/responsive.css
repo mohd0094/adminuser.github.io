@@ -1,0 +1,47 @@
+@media (min-width:1200px) and (max-width:1499px){
+
+
+
+}
+
+
+@media (max-width:1440px){
+
+
+}
+
+
+@media (min-width:1200px) and (max-width:1300px){
+
+
+}   
+
+@media (max-width:1200px){
+
+
+}
+
+
+@media  (max-width:991px){
+
+.navbar ul li{
+    justify-content: flex-end;
+}
+.navbar ul li:not(:last-child) {
+    padding-right: 0;
+}
+.navbar-nav{
+        border-top: 1px solid #b3a4a4;
+}
+
+
+}
+    
+    
+    
+
+
+
+@media (max-width:767px){
+
+}
